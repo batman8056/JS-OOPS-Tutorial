@@ -1,0 +1,49 @@
+Inheritance
+************
+=> In Javascript we don't have class we have Only object.
+=> Allow object(class) to use data and method from another Object(class).
+
+          Superclass(prototype)
+   |-----------|----------|---
+subclass1   subclass2   subclass3
+    |
+   -|--------------|
+  subclass4  subclass5
+
+=> Two type of Inheritance (Classical and Prototypical)
+
+
+Prototypical Inheritance:-
+------------------------
+=>A prototype is just a regular object.
+=>basicaly all the objects are in prototype.
+
+example :-
+//x is the prototype
+let x= {};
+
+//x is the prototype of the array
+//in the same array inside we have prototype object 
+let x= [];
+
+multi-level Inheritance:-
+--------------------------
+   objectBase
+       |
+    arrayBase
+       |
+    myArray
+
+=> myArray derived arrayBase and arrayBase derived objectBase
+   this is what we call multi-level inheritanc.
+
+=> Object created by a given constructor
+   will have the same prototype.
+
+
+example: 1_multi-levelinheritance.js
+
+Property Description:-
+---------------------
+
+
